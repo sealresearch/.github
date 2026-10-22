@@ -8,11 +8,11 @@ Seal Research builds the models behind [Seal](https://seal.computer), a small co
 
 ## Models
 
-| Model | What it does | Size |
-| --- | --- | --- |
-| [Relay](https://github.com/sealresearch/relay) | Turns a request and a list of tools into exact function calls, on the device. It reads the answer instead of writing it, so it cannot invent a phone number. | 11.5 MB |
+| Model | What it does | Size | Licence |
+| --- | --- | --- | --- |
+| [Relay](https://github.com/sealresearch/gust/tree/main/models/relay) | Turns a request and a list of tools into exact function calls, on the device. It reads the answer instead of writing it, so it cannot invent a phone number. | 11.5 MB | CC BY 4.0 |
 
-The weights are on [Hugging Face](https://huggingface.co/sealresearch). More models will follow as they are ready.
+The weights are on [Hugging Face](https://huggingface.co/sealresearch/relay). The code that runs them is [Gust](https://github.com/sealresearch/gust), our dependency-free C runtime, under the MIT licence. More models will follow as they are ready.
 
 ## Research
 
@@ -24,5 +24,6 @@ We write up every model: how it works, how we tested it against other models, an
 
 - Website: [seal.computer](https://seal.computer)
 - Research: [seal.computer/research](https://seal.computer/research)
+- Code: [github.com/sealresearch/gust](https://github.com/sealresearch/gust)
 - Weights: [huggingface.co/sealresearch](https://huggingface.co/sealresearch)
 - Contact: [support@seal.computer](mailto:support@seal.computer)
